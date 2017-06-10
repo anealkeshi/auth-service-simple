@@ -1,4 +1,4 @@
-package com.anilkc.config;
+package me.anilkc.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -9,11 +9,11 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
-import com.anilkc.config.handler.CustomAccessDeniedHandler;
-import com.anilkc.config.handler.CustomAuthenticationEntryPoint;
-import com.anilkc.config.handler.CustomLoginFailureHandler;
-import com.anilkc.config.handler.CustomLoginSuccessfulHandler;
-import com.anilkc.config.handler.CustomLogoutSuccessfulHandler;
+import me.anilkc.config.handler.CustomAccessDeniedHandler;
+import me.anilkc.config.handler.CustomAuthenticationEntryPoint;
+import me.anilkc.config.handler.CustomLoginFailureHandler;
+import me.anilkc.config.handler.CustomLoginSuccessfulHandler;
+import me.anilkc.config.handler.CustomLogoutSuccessfulHandler;
 
 @Configuration
 @EnableWebSecurity
